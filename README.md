@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
         - name: expressfs
-          image: <image>:<tag>
+          image: ghcr.io/pvkvicky2000/expressfs:1.0
           ports:
             - containerPort: 8080
           terminationMessagePath: /dev/termination-log
