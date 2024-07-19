@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Simple static file server based on express server",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+ 
   "keywords": [
     "static",
     "file",
@@ -13,8 +11,8 @@
     "simple",
     "nodejs"
   ],
-  "author": "Daniel Istrate",
-  "license": "ISC",
+  "author": "Vijay K",
+  "license": "None",
   "dependencies": {
     "express": "^4.17.2",
     "express-fileupload": "^1.2.1",

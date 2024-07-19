@@ -6,7 +6,7 @@ WORKDIR /usr/src/app
 
 COPY package.json ./
 
-RUN npm install -g npm@9.2.0
+RUN npm install -g npm@10.8.2 && npm install
 
 COPY . .
 
