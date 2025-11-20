@@ -75,4 +75,8 @@ spec:
     name: expressfs
   port:
     targetPort: 8080
+  tls:
+    termination: edge
+    insecureEdgeTerminationPolicy: Redirect
+
 ```
